@@ -1,17 +1,106 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      <h1>Home</h1>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <img src="https://www.cleanlink.com/resources/editorial/2019/office-building-23917.jpg" alt="">
+    <ion-card-header>
+      
+      <ion-card-subtitle>Work faster than speed</ion-card-subtitle>
+      <ion-card-title>To-Do Check List</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>”This is the real secret of life — to be completely
+         engaged with what you are doing in the here and now.
+          And instead of calling it work, realize it is play.”</p>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-list>
+    <ion-radio-group >
+      <ion-list-header>
+        <ion-label>To-Do</ion-label>
+      </ion-list-header>
+  
+      <ion-item>
+        <ion-label>Starcraft II</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Play Sports</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Workout</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Go Outside</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Program</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+  
+  <ion-list>
+    <ion-radio-group >
+      <ion-list-header>
+        <ion-label>Time to Consume</ion-label>
+      </ion-list-header>
+  
+      <ion-item>
+        <ion-label>Less than 1 Hour</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>1 Hour</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>2 Hours</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>3 Hour</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>4 Hour</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>5 Hours</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>More than 5 Hours</ion-label>
+        <ion-radio slot="start" ></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+
+  <ion-button size="full" color="dark">
+    <ion-icon slot="start" name="add"></ion-icon>
+    Add Task
+  </ion-button>
 </ion-content>
